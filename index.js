@@ -58,7 +58,7 @@ function startServer(port) {
         let carName = car ? `${car.manufacturer} ${car.name}` : null;
         if (carInfo.carID !== data.CarOrdinal && data.CarOrdinal !== 0) carInfo = { carID: data.CarOrdinal, Power: horsepower };
         else if (carInfo.carID === data.CarOrdinal && horsepower > carInfo.Power) carInfo.Power = horsepower;
-        carInfo.carName = carName ? carName : Object.values(cars).find(d => d.id === `${data.CarOrdinal}`);
+        carInfo.carName = carName ? carName : data.CarOrdinal;
         carInfo.speed = kmph;
     });
 
