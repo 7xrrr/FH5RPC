@@ -25,7 +25,7 @@ Make sure to set the following settings in your Forza Horizon 5 DataOut configur
 
 1. Download the latest release from [Releases]([https://github.com/your_username/your_repository/releases](https://github.com/7xrrr/FH5RPC/releases/tag/FH5RPC)).
 2. Extract the downloaded release files.
-3. Run the executable file (e.g., `your_executable.exe`).
+3. Run the executable file (e.g., `FH5RPC.exe`).
 4. While Forza Horizon 5 is running, type the port number (9996) when prompted.
 
 Please note that the size of the executable file (`.exe`) might be large due to the use of `pkg` for exporting, which includes Node.js files within the executable itself.
